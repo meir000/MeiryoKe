@@ -23,10 +23,10 @@ section > div { margin-left:1em; }
 <section>
   MeiryoKeは メイリオ フォントを改造したフォントセットです。
   <table style="margin:1em 1em 1em 2em;">
-    <tr><td>MeiryoKe_Gothic</td><td>:</td><td>文字幅を ＭＳ ゴシック に合わせた等幅フォント</td></tr>
-    <tr><td>MeiryoKe_PGothic</td><td>:</td><td>文字幅を ＭＳ Ｐゴシック に合わせたフォント</td></tr>
-    <tr><td>MeiryoKe_UIGothic</td><td>:</td><td>文字幅を MS UI Gothic に合わせたフォント</td></tr>
-    <tr><td>MeiryoKe_Console</td><td>:</td><td>MeiryoKe_Gothicからさらに英数字だけ改造した等幅フォント</td></tr>
+    <tr><td>MeiryoKe_PGothic</td><td>:</td><td>文字幅を ＭＳ Ｐゴシック に似せたフォント</td></tr>
+    <tr><td>MeiryoKe_UIGothic</td><td>:</td><td>文字幅を MS UI Gothic に似せたフォント</td></tr>
+    <tr><td>MeiryoKe_Gothic</td><td>:</td><td>等幅フォント</td></tr>
+    <tr><td>MeiryoKe_Console</td><td>:</td><td>等幅フォント. プログラミング向け</td></tr>
   </table>
 </section>
 
@@ -37,6 +37,7 @@ section > div { margin-left:1em; }
     システムにインストールされているメイリオのバージョンが異なる場合には、<br/>
     別途 meiryo.ttc, meiryob.ttc を用意して exeと同じフォルダに入れて実行してください。<br/>
     <ul>
+      <li><a download href="https://github.com/meir000/MeiryoKe/releases/download/v6.30rev5/meiryoKe_gen_6.30rev5.zip">meiryoKe_gen_6.30rev5.zip</a> - Windows 10 令和対応、新バージョン</li>
       <li><a download href="https://github.com/meir000/MeiryoKe/releases/download/v6.30rev1/meiryoKe_gen_6.30rev1.zip">meiryoKe_gen_6.30rev1.zip</a> - Windows 10 令和対応</li>
       <li><a download href="https://github.com/meir000/MeiryoKe/releases/download/v6.28rev1/meiryoKe_gen_6.28rev1.zip">meiryoKe_gen_6.28rev1.zip</a> - Windows 10 1809</li>
       <li><a download href="https://github.com/meir000/MeiryoKe/releases/download/v6.27rev1/meiryoKe_gen_6.27rev1.zip">meiryoKe_gen_6.27rev1.zip</a> - Windows 10 1709</li>
@@ -51,6 +52,27 @@ section > div { margin-left:1em; }
 <section>
   <h3>履歴</h3>
   <div>
+
+    <div>
+      <h4>meiryoKe_gen_6.30rev5 - 2019/09/23</h4>
+      <ul>
+	<li>
+	  <span style="color:red;font-weight:bold;">新たに全体を１から作り直しました。</span><br/>
+	  メイリオを元にしていてフォント名も同一ですが、rev1と rev5で結構違いが出ます。<br/>
+	  文字幅が変わっている文字もあります。<br/>
+	  ご注意ください。<br/>
+	  <br/>
+	  既にMeiryoKeをインストール済みの方は、rev5をプレビュー表示しようとしても表示が崩れるなど、正しくプレビューできないので（フォント名が同じため）、一度アンインストールしてください。</br>
+	  <br/>
+	</li>
+	<li>ＭＳ Ｐゴシックに完全一致させることを止めて、一部の英数記号など横幅を読みやすい幅に微調整しました。</li>
+	<li>Bold（太字）の横幅を細くしました。</li>
+	<li>Ke_Console： フォントサイズによって文字が崩れていた問題を改善。どのサイズでも綺麗に表示できます。</li>
+	<li>Ke_Console： 0 に斜線を入れました。</li>
+	<li>Ke_Console： Boldを追加しました。</li>
+	<li>その他いろいろ変わっています。</li>
+      </ul>
+    </div>
 
     <div>
       <h4>meiryoKe_gen_6.30rev1 - 2019/05/07</h4>
